@@ -1,0 +1,27 @@
+{
+  "name": "simple-passwordscore",
+  "version": "1.0.0",
+  "description": "Simple Password Strength Checker & Generator",
+  "main": "PasswordScore.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && tsc PasswordScore.ts --outDir umd/ --module umd"
+  },
+  "type": "module",
+  "keywords": [
+    "password",
+    "strength",
+    "checker",
+    "generator",
+    "password generator",
+    "password strength meter"
+  ],
+  "author": {
+    "name": "ArrayIterator",
+    "email": "me@arrayiterator.com",
+    "url": "https://www.arrayiterator.com/"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
